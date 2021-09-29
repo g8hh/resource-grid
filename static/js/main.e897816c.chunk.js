@@ -1520,7 +1520,7 @@
                                     backgroundColor: "var(--colAlt1)",
                                     color: "var(--colMain1)"
                                 } : {},
-                                children: ["Empower (", s, ")"]
+                                children: ["增强 (", s, ")"]
                             }), Object(q.jsx)(Ke, {
                                 onClick: function () {
                                     return d({
@@ -1531,7 +1531,7 @@
                                     opacity: .4,
                                     pointerEvents: "none"
                                 } : {},
-                                children: l > 0 ? Ve(l) : "Respec"
+                                children: l > 0 ? Ve(l) : "重洗"
                             })]
                         })]
                     }), Object(q.jsx)(Ze, {
@@ -1853,8 +1853,8 @@ var cnItems = {
     "Treasure Map": "藏宝图",
     "Amethyst": "紫水晶",
     "Ruby": "红宝石",
-    "": "",
-    "": "",
+    "Fast Forward": "快进",
+    "Empowerer": "赋能",
     "": "",
     "": "",
     "": "",
