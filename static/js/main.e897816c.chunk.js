@@ -1282,7 +1282,7 @@
                 })
             },
             he = l.b.div(le || (le = Object(s.a)(["\n  position: absolute;\n  right: 0;\n  transform: translateX(100%);\n\n  min-width: 60%;\n  height: var(--boxSize);\n\n  display: flex;\n  flex-direction: column;\n\n  border-radius: 0 calc(var(--boxSize) / 10) calc(var(--boxSize) / 10) 0;\n  background-color: var(--colOverlayReverse);\n\n  pointer-events: none;\n"]))),
-            fe = l.b.div(ue || (ue = Object(s.a)(['\n  flex: 1;\n\n  border-radius: 0 calc(var(--boxSize) / 10) 0 0;\n  background-color: var(--colOverlayReverse);\n\n  &::before {\n    font-size: 0.8em;\n    content: "Eff x";\n  }\n']))),
+            fe = l.b.div(ue || (ue = Object(s.a)(['\n  flex: 1;\n\n  border-radius: 0 calc(var(--boxSize) / 10) 0 0;\n  background-color: var(--colOverlayReverse);\n\n  &::before {\n    font-size: 0.8em;\n    content: "效果 x";\n  }\n']))),
             ve = l.b.div(de || (de = Object(s.a)(["\n  flex: 5;\n"]))),
             ge = l.b.div(pe || (pe = Object(s.a)(["\n  --itemHeight: calc(var(--boxSize) / 6);\n\n  height: var(--itemHeight);\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  font-size: 0.8em;\n  font-weight: bold;\n"])));
         var be, we, Oe = Object(c.b)((function (e) {
@@ -1510,7 +1510,7 @@
                                 backgroundColor: "var(--colAlt1)",
                                 color: "var(--colMain1)"
                             } : {},
-                            children: "Toggle Auto"
+                            children: "切换自动"
                         }), i[74].unlocked && Object(q.jsxs)(q.Fragment, {
                             children: [Object(q.jsxs)(Ke, {
                                 onClick: function () {
@@ -1578,7 +1578,7 @@
                 }),
                 children: n ? Object(q.jsxs)(q.Fragment, {
                     children: [Object(q.jsx)(en, {
-                        children: "Prestige"
+                        children: "声望"
                     }), Object(q.jsxs)(nn, {
                         children: [Object(q.jsx)(tn, {
                             children: r
@@ -1618,9 +1618,9 @@
                             onClick: function () {
                                 return i && window.confirm("Do you really want to Prestige?") && o(r)
                             },
-                            children: i ? "Prestige!" : Object(q.jsxs)(q.Fragment, {
+                            children: i ? "声望!" : Object(q.jsxs)(q.Fragment, {
                                 children: [Object(q.jsx)("span", {
-                                    children: "".concat(50 - r, " more ")
+                                    children: "".concat(50 - r, " 更多 ")
                                 }), Object(q.jsx)(ee, {
                                     size: "calc(var(--_imageSize) / 2)",
                                     position: {
@@ -1654,7 +1654,7 @@
                 var n = e.style;
                 return Object(q.jsx)("div", {
                     style: n,
-                    children: "Stats coming soon!"
+                    children: "统计即将推出！"
                 })
             },
             dn = l.b.div(ln || (ln = Object(s.a)(['\n  --asideWidth: calc(var(--w) / var(--totalFlexGrow) * 7 * 0.97);\n\n  flex: var(--asideFlexGrow);\n\n  margin-left: 1.5%;\n\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: center;\n\n  color: var(--colReverseWeak);\n  font-weight: bold;\n  font-size: 2em;\n\n  /* &::after {\n    position: absolute;\n\n    width: var(--asideWidth);\n    height: 3px;\n\n    background: linear-gradient(90deg, #f00 3%, #fff 1%);\n\n    content: "Aside Width";\n    opacity: 0.1;\n  } */\n\n  & > div {\n    margin: 1%;\n\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: center;\n\n    width: 100%;\n    background-color: var(--colMain2);\n    border-radius: calc(var(--asideWidth) / 60);\n    box-shadow: var(--baseShadow);\n  }\n\n  & > div:nth-child(1) {\n    flex: 2;\n  }\n  & > div:nth-child(2) {\n    flex: 1;\n  }\n  & > div:nth-child(3) {\n    flex: 3;\n  }\n  & > div:nth-child(4) {\n    flex: 5;\n  }\n'])));
