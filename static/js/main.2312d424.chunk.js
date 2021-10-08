@@ -1758,7 +1758,7 @@
                 }),
                 children: n ? Object(_.jsxs)(_.Fragment, {
                     children: [Object(_.jsx)(cn, {
-                        children: "Prestige"
+                        children: "声望"
                     }), Object(_.jsxs)(sn, {
                         children: [Object(_.jsx)(ln, {
                             children: r
@@ -1800,7 +1800,7 @@
                             },
                             children: i ? "Prestige!" : Object(_.jsxs)(_.Fragment, {
                                 children: [Object(_.jsx)("span", {
-                                    children: "".concat(50 - r, " more ")
+                                    children: "".concat(50 - r, " 更多 ")
                                 }), Object(_.jsx)(oe, {
                                     size: "calc(var(--_imageSize) / 2)",
                                     position: {
@@ -2036,8 +2036,8 @@ var cnItems = {
     "Fast Forward": "快进",
     "Empowerer": "增强",
     "Cluster": "星团",
-    "": "",
-    "": "",
+    "Steam Producer": "蒸汽发生器",
+    "Generator Upgrade": "发生器升级",
     "": "",
     "": "",
     "": "",
