@@ -1474,7 +1474,7 @@
                 })
             },
             Oe = l.b.div(fe || (fe = Object(s.a)(["\n  position: absolute;\n  right: 0;\n  transform: translateX(100%);\n\n  min-width: 60%;\n  height: var(--boxSize);\n\n  display: flex;\n  flex-direction: column;\n\n  border-radius: 0 calc(var(--boxSize) / 10) calc(var(--boxSize) / 10) 0;\n  background-color: var(--colOverlayReverse);\n\n  pointer-events: none;\n"]))),
-            ye = l.b.div(ve || (ve = Object(s.a)(['\n  flex: 1;\n\n  border-radius: 0 calc(var(--boxSize) / 10) 0 0;\n  background-color: var(--colOverlayReverse);\n\n  &::before {\n    font-size: 0.8em;\n    content: "Eff x";\n  }\n']))),
+            ye = l.b.div(ve || (ve = Object(s.a)(['\n  flex: 1;\n\n  border-radius: 0 calc(var(--boxSize) / 10) 0 0;\n  background-color: var(--colOverlayReverse);\n\n  &::before {\n    font-size: 0.8em;\n    content: "效果 x";\n  }\n']))),
             je = l.b.div(ge || (ge = Object(s.a)(["\n  flex: 5;\n"]))),
             Me = l.b.div(be || (be = Object(s.a)(["\n  --itemHeight: calc(var(--boxSize) / 6);\n\n  height: var(--itemHeight);\n\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  font-size: 0.8em;\n  font-weight: bold;\n"])));
         var xe, Se, ke = Object(c.b)((function (e) {
